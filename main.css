@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+body {
+    background: url(http://www.rabstol.net/uploads/gallery/main/293/rabstol_net_mlp_41.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+#check {
+    display: block;
+    border: none;
+    outline: none;
+    margin: 40px auto 0;
+    text-transform: uppercase;
+    width: 120px;
+    height: 30px;
+    background: #56c456;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#check:hover {
+    background: #2ccb2c;
+}
+#choose {
+    display: none;
+    margin: 40px auto 0;
+    width: 170px;
+    height: 20px;
+    background: #fff;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+}
+#choose .main {
+    -ms-align-self: center;
+    align-self: center;
+    text-align: center;    
+}
+#choose .main input {
+    margin-right: 20px;
+}
+#choose .main input:last-child {
+    margin: 0;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+}
